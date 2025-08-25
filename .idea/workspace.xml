@@ -97,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756075498225</updated>
-      <workItem from="1756075499372" duration="13798000" />
+      <workItem from="1756075499372" duration="14285000" />
     </task>
     <task id="LOCAL-00001" summary="webpage">
       <option name="closed" value="true" />
@@ -179,7 +179,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756091051648</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="webpage edit for live facing">
+      <option name="closed" value="true" />
+      <created>1756091282480</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1756091282480</updated>
+    </task>
+    <task id="LOCAL-00012" summary="webpage edit for live facing">
+      <option name="closed" value="true" />
+      <created>1756091505076</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756091505076</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
