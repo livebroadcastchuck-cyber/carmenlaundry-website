@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "deploy": "wrangler pages deploy . --project-name=carmens-laundry-service"
+    "deploy": "wrangler pages deploy . --project-name=carmenlaundry-website"
   },
   "devDependencies": {
     "wrangler": "^4.32.0"
