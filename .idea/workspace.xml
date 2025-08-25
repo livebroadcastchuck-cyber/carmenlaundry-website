@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e49e1b79-b005-45c1-8ec8-04701eced122" name="Changes" comment="webpage">
+    <list default="true" id="e49e1b79-b005-45c1-8ec8-04701eced122" name="Changes" comment="webpage edit for live facing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,9 @@
     "accountId": "293a36c7-5d5c-4450-ad72-50d5e1ec3644"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -59,6 +61,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="/private/var/folders/s_/_jn7kcyd0kb1vrwl365bscsw0000gn/T/qodana_output/qodana.sarif.json" />
+        <option name="reportGuid" value="3bda2069-a964-41d6-a18e-19407edcd38e" />
+        <option name="reportName" value="Business.Laundry/qodana/2025-08-24" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="/private/var/folders/s_/_jn7kcyd0kb1vrwl365bscsw0000gn/T/qodana_output/qodana.sarif.json" reportGuid="3bda2069-a964-41d6-a18e-19407edcd38e" reportId="Business.Laundry/qodana/2025-08-24" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
@@ -81,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756075498225</updated>
-      <workItem from="1756075499372" duration="9131000" />
+      <workItem from="1756075499372" duration="10051000" />
     </task>
     <task id="LOCAL-00001" summary="webpage">
       <option name="closed" value="true" />
@@ -91,7 +110,47 @@
       <option name="project" value="LOCAL" />
       <updated>1756085513604</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="webpage edit for live facing">
+      <option name="closed" value="true" />
+      <created>1756086516149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756086516149</updated>
+    </task>
+    <task id="LOCAL-00003" summary="webpage edit for live facing">
+      <option name="closed" value="true" />
+      <created>1756086599794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756086599794</updated>
+    </task>
+    <task id="LOCAL-00004" summary="webpage edit for live facing">
+      <option name="closed" value="true" />
+      <created>1756086687637</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756086687637</updated>
+    </task>
+    <task id="LOCAL-00005" summary="webpage edit for live facing">
+      <option name="closed" value="true" />
+      <created>1756086751997</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756086751997</updated>
+    </task>
+    <task id="LOCAL-00006" summary="webpage edit for live facing">
+      <option name="closed" value="true" />
+      <created>1756086864414</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756086864414</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +158,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="webpage" />
-    <option name="LAST_COMMIT_MESSAGE" value="webpage" />
+    <MESSAGE value="webpage edit for live facing" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpage edit for live facing" />
   </component>
 </project>
