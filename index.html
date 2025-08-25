@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carmen's Laundry Service. Now Open!</title>
+    <meta name="description" content="Your friendly neighborhood laundry service. We offer wash & fold, dry cleaning, and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">Carmen's Laundry Service Co.</a>
+            <ul>
+                <li><a href="#services">Drop-Off</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Now Open!</h1>
+                <p class="hero-subtitle">Serving North Sacramento & Roseville</p>
+                <p>Your one-stop solution for all laundry needs. Professional, fast, and reliable.</p>
+                <button class="cta-button">Schedule a Drop-Off</button>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Wash & Fold</h3>
+                    <p>Laundry is weighed in front of customers, Clothes are folded and bagged neatly or hung at the customer’s request, Customer is notified by text when laundry is ready for pickup.</p>
+                </div>
+                <div class="card">
+                    <h3>Drop-Off Hours</h3>
+                    <p>We are here to serve you from 9am-6pm. (extended hours upon request)</p>
+                </div>
+                <div class="card">
+                    <h3>Additonal Services</h3>
+                    <p>Comforters, blankets, sleeping bags, pillows, rugs, and more. Call for details or other individually priced items.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <h2>Fair & Simple Pricing</h2>
+            <div class="card-container">
+                 <div class="card">
+                    <h3>Wash & Fold</h3>
+                    <p class="price">$2.50 / lb</p>
+                    <p>Minimum 10 lbs order. Drop-Off Service Only.</p>
+                </div>
+                <div class="card">
+                    <h3>Comforters & Blankets</h3>
+                    <p class="price">Starting From $18.00 / item</p>
+                    <p>Pricing is dependent on size and fabric.</p>
+                </div>
+                 <div class="card">
+                    <h3>Pillows & Misc.</h3>
+                    <p class="price">Starting from $10.00 / item</p>
+                    <p>Call for details or other individually priced items.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Don't be shy, Get In Touch!</h2>
+            <p>Have questions? Ready to schedule a service? Send us a message!</p>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Carmen's Laundry Service Co. All rights reserved. Serving the Sacramento Community since 2024</p>
+    </footer>
+
+    <!-- Pickup Request Modal -->
+    <div id="pickup-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button class="close-button">&times;</button>
+            <h2>Schedule a Drop-off</h2>
+            <p>Please fill out the form below and we'll contact you shortly.</p>
+            <form id="pickup-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number (e.g., 555-123-4567)" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <button type="submit">Send Request</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
