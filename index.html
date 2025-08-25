@@ -76,9 +76,12 @@
             <h2>Don't be shy, Get In Touch!</h2>
             <p>Have questions? Ready to schedule a service? Send us a message!</p>
             <form id="contact-form">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <label for="contact-name" class="visually-hidden">Your Name</label>
+                <input id="contact-name" type="text" name="name" placeholder="Your Name" required>
+                <label for="contact-email" class="visually-hidden">Your Email</label>
+                <input id="contact-email" type="email" name="email" placeholder="Your Email" required>
+                <label for="contact-message" class="visually-hidden">Your Message</label>
+                <textarea id="contact-message" name="message" rows="5" placeholder="Your Message" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
         </section>
@@ -95,9 +98,12 @@
             <h2>Schedule a Drop-Off</h2>
             <p>Please fill out the form below and we'll contact you shortly.</p>
             <form id="dropoff-form">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <input type="tel" name="phone" placeholder="Phone Number (e.g., 555-123-4567)" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <label for="dropoff-name" class="visually-hidden">Your Name</label>
+                <input id="dropoff-name" type="text" name="name" placeholder="Your Name" required>
+                <label for="dropoff-email" class="visually-hidden">Your Email</label>
+                <input id="dropoff-email" type="email" name="email" placeholder="Your Email" required>
+                <label for="dropoff-phone" class="visually-hidden">Phone Number</label>
+                <input id="dropoff-phone" type="tel" name="phone" placeholder="Phone Number (e.g., 555-123-4567)" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                 <button type="submit">Send Request</button>
             </form>
         </div>
