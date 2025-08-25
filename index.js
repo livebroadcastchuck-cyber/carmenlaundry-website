@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Modal Form Logic ---
     const ctaButton = document.querySelector('.cta-button');
-    const pickupModal = document.getElementById('pickup-modal');
+    const dropoffModal = document.getElementById('dropoff-modal');
 
-    if (ctaButton && pickupModal) {
-        const closeButton = pickupModal.querySelector('.close-button');
-        const pickupForm = document.getElementById('pickup-form');
+    if (ctaButton && dropoffModal) {
+        const closeButton = dropoffModal.querySelector('.close-button');
+        const dropoffForm = document.getElementById('dropoff-form');
 
         const openModal = () => pickupModal.classList.remove('hidden');
         const closeModal = () => pickupModal.classList.add('hidden');
