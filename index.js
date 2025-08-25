@@ -24,26 +24,26 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeButton = dropoffModal.querySelector('.close-button');
         const dropoffForm = document.getElementById('dropoff-form');
 
-        const openModal = () => pickupModal.classList.remove('hidden');
-        const closeModal = () => pickupModal.classList.add('hidden');
+        const openModal = () => dropoffModal.classList.remove('hidden');
+        const closeModal = () => dropoffModal.classList.add('hidden');
 
-        // Open modal on "Schedule a Pickup" click
+        // Open modal on "Schedule a Drop-Off" click
         ctaButton.addEventListener('click', openModal);
 
         // Close modal with the 'X' button
         closeButton.addEventListener('click', closeModal);
 
         // Close modal by clicking the overlay
-        pickupModal.addEventListener('click', (e) => {
-            if (e.target === pickupModal) closeModal();
+        dropoffModal.addEventListener('click', (e) => {
+            if (e.target === dropoffModal) closeModal();
         });
 
         // Handle form submission
-        pickupForm.addEventListener('submit', (e) => {
+        dropoffForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            const name = pickupForm.querySelector('input[name="name"]').value;
+            const name = dropoffForm.querySelector('input[name="name"]').value;
             alert(`Thank you, ${name}! We have received your drop-off request and will contact you shortly.`);
-            pickupForm.reset();
+            dropoffForm.reset();
             closeModal();
         });
     }
